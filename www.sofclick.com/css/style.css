@@ -2380,6 +2380,7 @@ body.nav-mobile-on.nav-mobile-open #header.header-4 #navigation.affix .navbar-se
 		position:relative;
 		height:60px;
 		padding:13px 0px;
+		box-sizing: content-box;
 	}
 		#nav-mobile-top .navmenu > button {
 			color:#a9a9a9 !important;
@@ -2400,7 +2401,7 @@ body.nav-mobile-on.nav-mobile-open #header.header-4 #navigation.affix .navbar-se
 		left:60px;
 		text-align:center;
 	}
-		#nav-mobile-top .navbar-logo img { height:34px; }
+		#nav-mobile-top .navbar-logo img { height:60px; }
 	#nav-mobile-top .navbar-secondary { float:right; }
 		#nav-mobile-top .navbar-secondary .navbar-btn {
 			float:left;
