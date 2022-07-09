@@ -8002,6 +8002,9 @@ body.archive-portfolio, body.archive-post, body.archive-product, body.single-pos
 	background-color:#141414;
 	padding:30px 0px;
 }
+.footer0-logo img{
+	align-content: center;
+}
 #footer.footer-3 {
 	text-align:center;
 	background-color:#1a1a1a;
