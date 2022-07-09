@@ -1959,8 +1959,8 @@ body.nav-mobile-on.nav-mobile-open #navigation.affix .navbar-logo, body.nav-shop
 	#header.header-5 #navigation .nav > li.menu-logo { padding:25px 60px; }
 	#navigation .nav > li.menu-item-has-children.mega-menu-item { position:static; }
 	#navigation.affix .nav > li {
-		padding-top:24px;
-		padding-bottom:24px;
+		padding-top:70px;
+		padding-bottom:14px;
 	}
 	body.nav-shop-filter-open #header #navigation.affix .nav > li {
 		padding-top:34px;
