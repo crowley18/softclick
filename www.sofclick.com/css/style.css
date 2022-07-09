@@ -1741,6 +1741,10 @@ body.nav-mobile-on.nav-mobile-open #header #navigation.affix, body.nav-shop-filt
 	padding-bottom:90px;
 }
 
+.menu-logo img{
+	width: 10rem;
+}
+
 #navigation .navtop {
 	overflow:hidden;
 	color:#FFF;
@@ -1853,6 +1857,8 @@ body.nav-mobile-on.nav-mobile-open #header #navigation.affix, body.nav-shop-filt
 	-webkit-transition:all .2s ease;
 	transition:all .2s ease;
 }
+
+
 #header.header-3 #navigation .navbar-logo { padding:30px 0px; }
 #navigation.affix .navbar-logo { padding:15px 0px; }
 body.nav-mobile-on.nav-mobile-open #navigation.affix .navbar-logo, body.nav-shop-filter-open #navigation.affix .navbar-logo { padding:25px 0px; }
