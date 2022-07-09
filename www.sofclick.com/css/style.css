@@ -1940,7 +1940,7 @@ body.nav-mobile-on.nav-mobile-open #navigation.affix .navbar-logo, body.nav-shop
 	#navigation .nav > li {
 		float:left;
 		position:relative;
-		padding:34px 15px;
+		padding:70px 15px;
 		-webkit-transition:padding-top .2s ease, padding-bottom .2s ease;
 		transition:padding-top .2s ease, padding-bottom .2s ease;
 	}
