@@ -1940,7 +1940,7 @@ body.nav-mobile-on.nav-mobile-open #navigation.affix .navbar-logo, body.nav-shop
 	#navigation .nav > li {
 		float:left;
 		position:relative;
-		padding:34px 15px;
+		padding:70px 15px;
 		-webkit-transition:padding-top .2s ease, padding-bottom .2s ease;
 		transition:padding-top .2s ease, padding-bottom .2s ease;
 	}
@@ -1959,8 +1959,8 @@ body.nav-mobile-on.nav-mobile-open #navigation.affix .navbar-logo, body.nav-shop
 	#header.header-5 #navigation .nav > li.menu-logo { padding:25px 60px; }
 	#navigation .nav > li.menu-item-has-children.mega-menu-item { position:static; }
 	#navigation.affix .nav > li {
-		padding-top:24px;
-		padding-bottom:24px;
+		padding-top:70px;
+		padding-bottom:14px;
 	}
 	body.nav-shop-filter-open #header #navigation.affix .nav > li {
 		padding-top:34px;
@@ -8002,6 +8002,9 @@ body.archive-portfolio, body.archive-post, body.archive-product, body.single-pos
 	color:#a9a9a9;
 	background-color:#141414;
 	padding:30px 0px;
+}
+.footer0-logo img{
+	align-content: center;
 }
 #footer.footer-3 {
 	text-align:center;
