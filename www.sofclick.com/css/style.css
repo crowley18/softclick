@@ -5556,7 +5556,10 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 
 
 .formulario{
-	background-color: #111;
+	background-color: rgba(0, 128, 128, 0.05);
+	padding: 1rem;
+	margin-bottom: 2rem;
+	box-shadow: 0 0 1rem 1px rgba(0, 128, 128, 0.2);
 }
 
 
