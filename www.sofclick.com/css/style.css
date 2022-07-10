@@ -5556,12 +5556,17 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 }
 
 /*/////////////////////////////////////////////////////formulario/////////////////////////////////////////*/
-
+.formulario p{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #00769d;
+}
 .cuentanosMas{
-	width: 100%;
-
+	margin: 1rem;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+}
+.font-email input{
+	width: 100%;
 }
 .texFont{
 	width: 100%;
@@ -5569,19 +5574,47 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 
 }
 
-.font-nombre{
+.font-nombre {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-between;
 
 }
-.font-nombre ,.form-email{
+.font-contacto select{
+	width: 90%;
+	margin-left: 2rem;
+
+}
+.font-nombre ,.font-email{
 	margin: 1rem;
 }
+.contenedor-btnformulario{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+} 
+.contenedor-btnformulario input{
+	width: 50%;
+	text-align: center;
+}
 .font-contacto{
+	width: 100%;
 	display: flex;
 	flex-direction: row;
+	align-items: baseline;
+	margin: 1REM;
 }
+
+.formulario-interno{
+	border: solid 1px #DFF4F5;
+	background-color:#F6F8F4;
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+}
+
 
 @media (max-width:800px) {
 		.fontmulario {
@@ -5605,7 +5638,12 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 	-ms-border-radius: 15px;
 	-o-border-radius: 15px;
 }
+.formulario label{
+	color: #A1B0B3;
+}
+
 .formulario_interno{
+	width:80%;
 	padding: 1rem;
 }
 .formulario_interno label{
@@ -5613,7 +5651,6 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 }
 
 
-	
 .affa-socials { margin:0px -25px; }
 	.affa-socials a {
 		display:inline-block;
