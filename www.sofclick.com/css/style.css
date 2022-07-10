@@ -90,6 +90,9 @@ body.nav-mobile-on.nav-mobile-open #body-wrap, body.nav-shop-filter-open #body-w
 .text-white { color:#FFF; }
 
 p { margin-bottom:15px; }
+.textostilo{
+	font-weight: 400;
+}
 
 h1, h2, h3, h4, h5, h6 {
 	font-family:Montserrat, Arial, sans-serif;
