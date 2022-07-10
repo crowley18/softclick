@@ -5557,12 +5557,36 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 
 /*/////////////////////////////////////////////////////formulario/////////////////////////////////////////*/
 
+.form-nombre{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 
+}
+.form-nombre div{
+	
+}
+
+@media (max-width:800px) {
+		.formulario {
+	
+			margin: 3rem;
+			background-color: #00769d;
+		}
+}
 .formulario{
+	margin-bottom: 3vh;
 	background-color: rgba(0, 128, 128, 0.05);
+	border-radius: 15px;
 	padding: 1rem;
-	margin-bottom: 2rem;
 	box-shadow: 0 0 1rem 1px rgba(0, 128, 128, 0.2);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+.formulario_interno{
+	margin: 2rem;
 }
 
 
