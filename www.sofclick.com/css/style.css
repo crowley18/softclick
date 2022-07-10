@@ -5578,7 +5578,6 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-
 }
 .font-contacto select{
 	width: 90%;
@@ -5606,13 +5605,7 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 }
 
 .formulario-interno{
-	border: solid 1px #DFF4F5;
-	background-color:#F6F8F4;
-	border-radius: 12px;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
-	-ms-border-radius: 12px;
-	-o-border-radius: 12px;
+	background-color: #00769d;
 }
 
 
@@ -9603,8 +9596,6 @@ body.archive-portfolio, body.archive-post, body.archive-product, body.single-pos
 	}
 	#header .sub-header3 .sub-header-txt figure { padding:0px 12%; }
 
-	
-	/************************formulario****************************************/
 
 	
 	.affa-post2.post-thumbnail-left .post-item-thumbnail { margin-bottom:15px; }
