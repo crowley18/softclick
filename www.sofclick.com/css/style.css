@@ -5563,8 +5563,8 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 	justify-content: center;
 
 }
-.form-nombre div{
-	
+.form-nombre ,.form-email,.form-contacto{
+	margin: 1rem;
 }
 
 @media (max-width:800px) {
@@ -5575,6 +5575,10 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 		}
 }
 .formulario{
+	max-width: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	margin-bottom: 3vh;
 	background-color: rgba(0, 128, 128, 0.05);
 	border-radius: 15px;
@@ -5586,12 +5590,13 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 	-o-border-radius: 15px;
 }
 .formulario_interno{
-	margin: 2rem;
+	padding: 1rem;
+}
+.formulario_interno label{
+	padding: 5px;
 }
 
 
-
-	.affa-form-search input[type="submit"]:hover { background-image:url(../images/icon-form-search-hover.png); }
 	
 .affa-socials { margin:0px -25px; }
 	.affa-socials a {
