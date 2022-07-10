@@ -1989,7 +1989,7 @@ body.nav-mobile-on.nav-mobile-open #navigation.affix .navbar-logo, body.nav-shop
 			-webkit-transition:color .2s ease;
 			transition:color .2s ease;
 		}
-		#navigation .nav > li > a:hover, #navigation .nav > li.current-menu-item > a { color:#00d27f; }
+		#navigation .nav > li > a:hover, #navigation .nav > li.current-menu-item > a { color:teal; }
 		#header.header-transparent #navigation .nav > li > a { color:#FFF; }
 		#header.header-transparent #navigation.affix .nav > li > a { color:#a9a9a9; }
 		#header.header-transparent #navigation.affix .nav > li > a:hover, #header.header-transparent #navigation.affix .nav > li.current-menu-item > a { color:#00d27f; }
