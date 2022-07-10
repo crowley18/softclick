@@ -5557,18 +5557,34 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 
 /*/////////////////////////////////////////////////////formulario/////////////////////////////////////////*/
 
-.form-nombre{
+.cuentanosMas{
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+}
+.texFont{
+	width: 100%;
+	display: flex;
+
+}
+
+.font-nombre{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 
 }
-.form-nombre ,.form-email,.form-contacto{
+.font-nombre ,.form-email{
 	margin: 1rem;
+}
+.font-contacto{
+	display: flex;
+	flex-direction: row;
 }
 
 @media (max-width:800px) {
-		.formulario {
+		.fontmulario {
 	
 			margin: 3rem;
 			background-color: #00769d;
@@ -9552,10 +9568,7 @@ body.archive-portfolio, body.archive-post, body.archive-product, body.single-pos
 
 	
 	/************************formulario****************************************/
-	.for{
-		background-color: #00769d;
-	}
-	
+
 	
 	.affa-post2.post-thumbnail-left .post-item-thumbnail { margin-bottom:15px; }
 	.affa-post2.post-thumbnail-left .post-item-meta { margin-top:20px; }
