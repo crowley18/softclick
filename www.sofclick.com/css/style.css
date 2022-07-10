@@ -5376,7 +5376,7 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 .affa-counter {
 	text-align:center;
 	margin-bottom:40px;
-}
+}.form
 	.affa-counter h4 {
 		font-family:Roboto, Arial, sans-serif;
 		color:#00d27f;
@@ -5555,119 +5555,18 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 	opacity:.25;
 }
 
-.affa-form-subscribe {
-	position:relative;
-	padding-right:118px;
+/*/////////////////////////////////////////////////////formulario/////////////////////////////////////////*/
+
+
+.formulario{
+	background-color: rgba(0, 128, 128, 0.05);
+	padding: 1rem;
+	margin-bottom: 2rem;
+	box-shadow: 0 0 1rem 1px rgba(0, 128, 128, 0.2);
 }
-.affa-form-subscribe.pos-center {
-	max-width:600px;
-	margin:0px auto;
-}
-	.affa-form-subscribe input[type="text"], .affa-form-subscribe input[type="email"] { width:100%; }
-	.affa-form-subscribe input[type="text"].error, .affa-form-subscribe input[type="email"].error {
-		color:#d86c6c;
-		background-color:#f6caca;
-		border-color:#e9b8b8;
-	}
-	.affa-form-subscribe input[type="text"].success, .affa-form-subscribe input[type="email"].success {
-		color:#529552;
-		background-color:#b9edb9;
-		border-color:#a5dda5;
-	}
-	.affa-form-subscribe input[type="submit"] {
-		position:absolute;
-		top:0px;
-		right:0px;
-		width:110px;
-		text-align:center;
-		padding-right:0px;
-		padding-left:0px;
-	}
-	
-.affa-form-contact { position:relative; }
-	.affa-form-contact input[type="text"], .affa-form-contact input[type="email"] {
-		width:100%;
-		margin-bottom:20px;
-	}
-	.affa-form-contact textarea {
-		display:block;
-		width:100%;
-		height:209px;
-		margin-bottom:20px;
-	}
-	.affa-form-contact.form-contact2 input[type="text"], .affa-form-contact.form-contact2 input[type="email"], .affa-form-contact.form-contact2 textarea { margin-bottom:30px; }
-	.affa-form-contact input[type="text"].error, .affa-form-contact input[type="email"].error, .affa-form-contact textarea.error {
-		color:#f58181;
-		background-color:#f9d4d4;
-		border-color:#f7bdbd;
-		box-shadow:none;
-	}
-	.affa-form-contact .submit-status {
-		display:none;
-		position:absolute;
-		top:0px;
-		right:0px;
-		bottom:0px;
-		left:0px;
-		font-size:14px;
-		line-height:20px;
-		text-align:center;
-		font-weight:400;
-		background-color:rgba(255,255,255,.5);
-		z-index:400;
-	}
-	.ie .affa-form-contact .submit-status { background:url(../images/ie-bg-white-50.png) repeat top left; }
-		.affa-form-contact .submit-status .submit-status-text {
-			position:absolute;
-			top:50%;
-			right:0px;
-			left:0px;
-			margin-top:-25px;
-		}
-		.affa-form-contact .submit-status span {
-			display:inline-block;
-			text-align:left;
-			background-color:#FFF;
-			padding:13px 20px;
-			border:1px solid #FFF;
-			border-radius:3px;
-		}
-		.affa-form-contact .submit-status span.error {
-			color:#d86c6c;
-			background-color:#f6caca;
-			border-color:#e9b8b8;
-		}
-		.affa-form-contact .submit-status span.success {
-			color:#529552;
-			background-color:#b9edb9;
-			border-color:#a5dda5;
-		}
-			.affa-form-contact .submit-status span .ion {
-				font-size:22px;
-				vertical-align:bottom;
-				margin-right:6px;
-			}
-			
-.affa-form-search {
-	overflow:hidden;
-	position:relative;
-}
-	.affa-form-search input[type="text"] {
-		width:100%;
-		padding-right:50px;
-	}
-	.affa-form-search input[type="submit"] {
-		position:absolute;
-		top:0px;
-		right:0px;
-		bottom:0px;
-		width:50px;
-		font-size:0px;
-		text-indent:-99999px;
-		background:url(../images/icon-form-search.png) center no-repeat;
-		padding:0px;
-		border:0px;
-	}
+
+
+
 	.affa-form-search input[type="submit"]:hover { background-image:url(../images/icon-form-search-hover.png); }
 	
 .affa-socials { margin:0px -25px; }
@@ -9621,6 +9520,13 @@ body.archive-portfolio, body.archive-post, body.archive-product, body.single-pos
 		line-height:54px;
 	}
 	#header .sub-header3 .sub-header-txt figure { padding:0px 12%; }
+
+	
+	/************************formulario****************************************/
+	.for{
+		background-color: #00769d;
+	}
+	
 	
 	.affa-post2.post-thumbnail-left .post-item-thumbnail { margin-bottom:15px; }
 	.affa-post2.post-thumbnail-left .post-item-meta { margin-top:20px; }
@@ -9932,6 +9838,8 @@ body.archive-portfolio, body.archive-post, body.archive-product, body.single-pos
 	#sidebar.right-sidebar { padding-top:20px; }
 	#sidebar.left-sidebar { padding-bottom:10px; }
 	
+
+
 	#footer { text-align:center; }
 	#footer.footer-2 .container > p, #footer.footer-5 .container > p, #footer .footer-nav, #footer.footer-2 .footer-nav, #footer .footer-nav ul li a, #footer .footer-socials ul, #footer .footer-socials2 { float:none; }
 	#footer.footer-6 .container > p {
